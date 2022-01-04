@@ -14,7 +14,10 @@
     <script>
         //toLocalDateString
         const options = {month: "short", day: "numeric", year:"numeric"};
+        const daycount = 24;
+        const targetEvent = "Christmas";
         const daysUntil = `There are ${daycount} days until ${targetEvent}!`;
+        console.log(daysUntil)
         document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US", options);
     </script>
 </body>
