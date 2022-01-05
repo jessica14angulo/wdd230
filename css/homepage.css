@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Balsamiq+Sans');
+
+body {
+    background-color: white;
+    font-family: "Balsamiq Sans", Arial, sans-serif;
+    margin-top: 20px;
+}
+#content {
+    margin: 0 auto;
+    max-width: 700px;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: purple;
+    font-family: "Roboto" , Arial, Helvetica;
+    padding: 1em;
+    color: whitesmoke;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.20);
+}
+header img{
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 150px;
+    float: left;
+    border-radius: 8px;
+    margin-left: 1.3em;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.75);
+}
+header h1 {
+    grid-column: 2/5;
+    padding-left: 2em;
+}
+main {
+    font-size: 22px;
+}
+.linklist ul li {
+    padding: .2em;
+    font-size: 20px;
+}
+ul {
+    border-top-style: groove;
+    border-bottom-style: groove;
+    padding: 1em;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: purple;
+    font-family: "Roboto" , Arial, Helvetica;
+    color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.20);
+    padding: 1em;
+    justify-items: center;
+}
+.copyrigth {
+    grid-column: 1/3;
+}
+.lastupdated {
+    grid-column: 1/3;
+    font-size: 10px;
+    color:lightblue;
+}
