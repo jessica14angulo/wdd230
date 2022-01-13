@@ -5,46 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Principles Document</title>
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Design Principles Document</h1>
-        <h2>Jessica L. Angulo</h2>
-    </header>
-    <main>
-
-        <h3>Repetition</h3>
-        <p>BBC News</p>
-        <a href="https://www.bbc.com/news/world-australia-55760672">https://www.bbc.com/news/world-australia-55760672</a>
-        <img src="images/BBC_News.jpg" alt="BBC News website screenshot">
-        <p>The repetition principle is applicated on this page because the design 
-            repeats the same navigation bar, colors (Red, black, grey and white) in 
-            the entire page. It also uses the same fonts and, as we can see, the BBC 
-            web site is filled with the same distribution all over the page. 
-        </p>
-
-        <h3>Proximity</h3>
-        <p>Discovery</p>
-        <a href="https://www.tudiscovery.com/">https://www.tudiscovery.com/</a>
-        <img src="images/Discovery.jpg" alt="Discovery website screenshot">
-        <p>The proximity principle is applicated in every section of Discovery web 
-            page. As we can see, every topic that is exposed into this page has a 
-            name, a different color and, most important, are closer to each other. 
-            This helps us to differentiate every topic from this webpage. 
-        </p>
-
-        <h3>Contrast</h3>
-        <p>National Geographic</p>
-        <a href="https://www.nationalgeographic.com/">https://www.nationalgeographic.com/</a>
-        <img src="images/National_Geographic.jpg" alt="National Geographic website screenshot">
-        <p>The contrast principle is clearly seen in National Geographic web page. 
-            We can see that the color palette is filled with black, white and yellow, 
-            which are totally opposite colors. We can see the contrast between black 
-            and white and also between black and yellow. This helps us to clearly 
-            distinguish the text and also the images, which can highlight because 
-            of the black background.  
-        </p>
-
-    </main>
+    <div id="content">
+        <header>
+            <h1>Design Principles Document</h1>
+            <h2>Jessica L. Angulo</h2>
+        </header>
+        <main>
+            <section class="principle1">
+                <h3>Repetition</h3>
+                <p>BBC News</p>
+                <a href="https://www.bbc.com/">https://www.bbc.com/</a>
+                <img src="images/BBC_News.jpg" alt="BBC News website screenshot">
+                <p>The repetition principle is applicated on this page because the design 
+                    repeats the same navigation bar, colors (Red, black, grey and white) in 
+                    the entire page. It also uses the same fonts and, as we can see, the BBC 
+                    web site is filled with the same distribution all over the page. 
+                </p>
+            </section>
+            
+            <section class="principle2">
+                <h3>Proximity</h3>
+                <p>Discovery</p>
+                <a href="https://www.tudiscovery.com/">https://www.tudiscovery.com/</a>
+                <img src="images/Discovery.jpg" alt="Discovery website screenshot">
+                <p>The proximity principle is applicated in every section of Discovery web 
+                    page. As we can see, every topic that is exposed into this page has a 
+                    name, a different color and, most important, are closer to each other. 
+                    This helps us to differentiate every topic from this webpage. 
+                </p>
+            </section>
+            
+            <section class="principle3">
+                <h3>Contrast</h3>
+                <p>National Geographic</p>
+                <a href="https://www.nationalgeographic.com/">https://www.nationalgeographic.com/</a>
+                <img src="images/National_Geographic.jpg" alt="National Geographic website screenshot">
+                <p>The contrast principle is clearly seen in National Geographic web page. 
+                    The color palette is filled with black, white and yellow, 
+                    which are totally opposite colors. We can see the contrast between black 
+                    and white and also between black and yellow. This helps us to clearly 
+                    distinguish the text and also the images, which can highlight because 
+                    of the black background.  
+                </p>
+            </section>
+        </main>
+        <footer>
+            <h2> &copy; <span id="currentyear"></span> | Jessica L. Angulo | Last Updated: <span id="lastmodified"></span></h2>
+        </footer>
+        <script src="js/design-principles.js"></script>
+    </div>
 </body>
 </html>
