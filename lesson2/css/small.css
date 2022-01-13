@@ -38,6 +38,9 @@ body {
     border-radius: 8px 8px 0 0;
     margin: auto;
 }
+a:hover{
+    color:blue;
+}
 
 footer {
     background-color: darkmagenta;
