@@ -2,7 +2,8 @@
 
 body {
     background-color: white;
-    font-family: "Balsamiq Sans", Arial, sans-serif;
+    /* font-family: "Balsamiq Sans", Arial, sans-serif; */
+    font-family: 'Luxurious Roman', cursive;
     margin-top: 20px;
 }
 #content {
@@ -10,32 +11,33 @@ body {
     max-width: 700px;
 }
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.30);
     background-color: purple;
     font-family: "Roboto" , Arial, Helvetica;
     padding: 1em;
     color: whitesmoke;
     align-items: center;
-    border-radius: 8px;
     font-size: 20px;
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.20);
 }
-header img{
-    grid-column: 1;
-    grid-row: 1;
+header img {
     max-width: 150px;
-    float: left;
-    border-radius: 8px;
-    margin-left: 1.3em;
-    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.75);
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
-header h1 {
-    grid-column: 2/5;
-    padding-left: 2em;
+
+h1 {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
 }
+
 main {
     font-size: 22px;
+    margin-left: 20px;
 }
 .linklist ul li {
     padding: .2em;
@@ -52,13 +54,13 @@ footer {
     background-color: purple;
     font-family: "Roboto" , Arial, Helvetica;
     color: whitesmoke;
-    border-radius: 8px;
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.20);
     padding: 1em;
     justify-items: center;
 }
 .copyrigth {
     grid-column: 1/3;
+    text-align: center;
 }
 .lastupdated {
     grid-column: 1/3;
