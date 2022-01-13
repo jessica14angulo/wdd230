@@ -1,0 +1,23 @@
+@media only screen and (min-width:65em) {
+    #content {
+        margin: 0 auto;
+        max-width: 1500px;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .principle1 {
+        grid-column: 1/2;
+    }
+    .principle2 {
+        grid-column: 2/3;
+    }
+    .principle3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+}
