@@ -6,7 +6,7 @@
         grid-row: 1/2;
         align-self: center;
     }
-    nav ul {
+    nav ul#navBar {
         display: flex;
     }
     nav ul li a {
