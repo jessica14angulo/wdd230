@@ -1,4 +1,4 @@
-@media only screen and (min-width: 52rem) {
+@media only screen and (min-width: 73rem) {
     /* nav */
     nav {
         
@@ -15,6 +15,7 @@
     header {
         display: grid;
         grid-template-columns: 1fr 2fr 2fr 1fr;
+        margin-bottom: 1em;
     }
     #hamburguerButton {
         display: none;
@@ -39,11 +40,14 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: .5em;
+        grid-gap: .8em;
+        margin: auto;
+        max-width: 1200px;
     }
     .event {
         grid-column: 1/2;
         grid-row: 1/2;
+        padding-bottom: 0;
     }
     .hero {
         grid-column: 2/4;
@@ -52,10 +56,22 @@
     .spotlights {
         grid-column: 4/5;
         grid-row: 1/4;
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
     }
     .spotlights p {
         margin: 0.3em;
+    }
+    .transport {
+        grid-row: 1/2;
+    }
+    .dance {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .bike-agency {
+        grid-row: 3/4;
     }
     .weather {
         grid-column: 1/2;
@@ -69,9 +85,6 @@
         grid-column: 2/4;
         grid-row: 3/4;
     }
-    .spotlights p:nth-child(3) {
-        display: block;
-    }
     /* footer */
     #lastinfo p {
         margin-top: 14px;
@@ -81,5 +94,39 @@
     }
     .contact p {
         margin-top: 2em;
+    }
+    /* hero img */
+    .hero span:nth-child(2) {
+        display: none;
+    }
+    .hero span:nth-child(3) {
+        display: block;
+    }
+    .hero h2 strong{
+        font-size: 28px;
+    }
+    #joinButton {
+        bottom: 40px;
+        right: 15px;
+        font-size: 25px;
+    }
+    /* spotlights */
+    .spotlights img {
+        max-width: 100px;
+    }
+    .bike-agency {
+        display: block;
+        padding: .5em;
+    }
+    /* event */
+    .event p {
+        padding: .5em;
+    }
+    .event h2 {
+        padding: 0;
+    }
+    /* join */
+    .join p {
+        padding: 1em;
     }
 }
