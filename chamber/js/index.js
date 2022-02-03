@@ -21,7 +21,7 @@ const showBanner = () => {
 
 if (day == 1)  {
     showBanner();
-} else if (day === 2) {
+} else if (day === 4) {
   showBanner();
 }
 //current year
