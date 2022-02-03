@@ -1,9 +1,20 @@
+/* banner */
+.banner {
+    text-align: center;
+    background-color: #0E78BE;
+    margin: 0;
+    padding: .5em;
+}
+.banner p {
+    color:#F7F7F7;
+}
 /* header style */
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 header {
+    position: relative;
     background-color: #073B5E;
     color: #F7F7F7;
     display: grid;
@@ -159,14 +170,13 @@ footer img {
     position: relative;
     text-align: center;
     background-color: transparent;
-    /* margin-top: 1em; */
 }
 .hero h2 {
     color: #F7F7F7;
     font-size: 16px;
     font-family: 'Merriweather', serif;
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 20px;
 }
 .hero img {
@@ -204,6 +214,7 @@ h2 {
 .event {
     text-align: center;
     padding-bottom: 2em;
+    padding: 1em;
 }
 .event h3 {
     color: #F7F7F7;
