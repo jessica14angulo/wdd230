@@ -10,6 +10,20 @@ const datefield = document.querySelector("#date");
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 datefield.innerHTML = `<em>${fulldate}</em>`;
+//banner
+const banner = document.getElementById("banner");
+let today = new Date();
+day = today.getDay();
+
+const showBanner = () => {
+    banner.style.display = "block";
+};
+
+if (day == 1)  {
+    showBanner();
+} else if (day === 2) {
+  showBanner();
+}
 //current year
 document.addEventListener("DOMContentLoaded", function() { 
     const yrSpan = document.querySelector('#currentyear');
