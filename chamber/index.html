@@ -27,7 +27,7 @@
     <div class="content">
         <header>
             <div class="logo">
-                <a href="index.html"><img src="images/CCL-logo.png" alt="Crystal Clear Lake Logo"></a>
+                <a href="index.html"><img src="images/CCL-logo.webp" alt="Crystal Clear Lake Logo"></a>
             </div>
             <div class="chamberName">
                 <h1>Crystal Clear Lake</h1>
@@ -51,9 +51,15 @@
         
         <main>
             <div class="hero">
-                <span><img src="images/lake-full.jpg" alt="crystal clear lake image"></span>
+                <picture class="hero-image">
+                    <source media="(max-width: 637px)" srcset="images/small.jpg">
+                    <source media="(max-width: 1167px)" srcset="images/medium.jpg">
+                    <source media="(max-width: 1500px)" srcset="images/large.jpg">
+                    <img src="images/large.jpg" alt="people talking">
+                </picture>
+                <!-- <span><img src="images/lake-full.jpg" alt="crystal clear lake image"></span>
                 <span><img src="images/lake_wide.jpg" alt="crystal clear lake wide image"></span>
-                <span><img src="images/lake_square.jpg" alt="crystal clear lake square image"></span>
+                <span><img src="images/lake_square.jpg" alt="crystal clear lake square image"></span> -->
                 <h2><strong>Welcome to Crystal Clear Lake</strong></h2>
                 <button id="joinButton"> Join the Chamber</button>
             </div>
@@ -65,10 +71,21 @@
             <div class="weather">
                 <h2>Weather</h2>
                 <img src="images/weather.png" alt="weather image">
-                <p>33° C</p>
+                <!-- <p>33° C</p>
                 <p>Partly Cloudy</p>
                 <p><span>Wind Speed:     2.5 Km/h</span> </p>
-                <p><span>Wind Chill:     N/A</span></p>
+                <p><span>Wind Chill:     N/A</span></p> -->
+
+                <!-- <p><span id="temp">9</span> &#176;C</p>
+                <p>Sunny</p>                
+                <p>Wind Speed: <span id="windSpeed">6</span>Km/h</p>
+                <p>Wind Chill: <span id="windChill"></span> &#176;F</p> -->
+                <p><span id="temperature">33</span>&#176;F</p>
+                <p>Sunny</p>
+                
+                <p>Wind Speed: <span id="wind">2.5</span>Km/h</p>                
+                <p>Wind Chill: <span id="chillWind"></span></p>
+
             </div>
             <div class="news">
                 <h2>News Release</h2>
@@ -116,7 +133,7 @@
         </main>
         <footer>
             <div class="address">
-                <img src="images/CCL-logo.png" alt="Chamber logo">
+                <img src="images/CCL-logo.webp" alt="Chamber logo">
                 <p><strong>Crystal Clear Lake Chamber of Commerce</strong></p>
                 <p>c. Lanza # 767</p>
                 <p>Cochabamba, Bolivia</p> 
@@ -135,6 +152,7 @@
             </div>
         </footer>
         <script src="js/index.js"></script>
+        <script src="js/windchill.js"></script>
     </div> 
 </body>
 </html>
