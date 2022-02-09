@@ -19,9 +19,12 @@ const showBanner = () => {
     banner.style.display = "block";
 };
 
-if (day == 1)  {
-    showBanner();
-} else if (day === 2) {
+// if (day == 1)  {
+//     showBanner();
+// } else if (day === 2) {
+//   showBanner();
+// }
+if (day === 1 || day === 2) {
   showBanner();
 }
 //current year
