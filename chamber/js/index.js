@@ -19,11 +19,6 @@ const showBanner = () => {
     banner.style.display = "block";
 };
 
-// if (day == 1)  {
-//     showBanner();
-// } else if (day === 2) {
-//   showBanner();
-// }
 if (day === 1 || day === 2) {
   showBanner();
 }
@@ -36,3 +31,28 @@ document.addEventListener("DOMContentLoaded", function() {
 //last modified date and hour
 const options = {month: "numeric", day:"numeric", year: "numeric", hour12: false, hour:"2-digit", minute:"2-digit", second:"2-digit"};
 document.getElementById("lastmodified").textContent = new Date(document.lastModified).toLocaleDateString("en-US",options);
+//locale storage
+const daysVisited = document.getElementById("container");
+const timestamp = today.getTime();
+
+document.addEventListener("DOMContentLoaded", () => {
+  populateStorage();
+});
+
+const populateStorage = () => {
+  try {
+    let theDay = localStorage.getItem("daysVisited");
+    if (theDay != timestamp) {
+      // (1.000 miliseconds x 60 seconds x 60 minutes x 24 hours)
+      let days = Math.round((timestamp - theDay) / 86400000);
+      daysVisited.textContent = `Amount of time in days between user visits: ${days} days`;
+      setStyles();
+    }
+  } catch (er) {
+    setStyles();
+  }
+};
+
+const setStyles = () => {
+  localStorage.setItem("daysVisited", timestamp);
+};
