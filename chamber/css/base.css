@@ -300,3 +300,7 @@ main .discover_images {
 figcaption {
     padding: 1em;
 }
+figure {
+    margin-top: 0;
+    margin-bottom: 0;
+}
