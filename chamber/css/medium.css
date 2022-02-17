@@ -122,4 +122,16 @@
     .hero h2 strong {
         font-size: 25px;
     }
+    /* discover */
+    .images_small {
+        display: none;
+    }
+    .images_medium {
+        display: block;
+    }
+    .discover_images img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+        
+    
 }

@@ -242,7 +242,6 @@ h2 {
     float: left;
 }
 .weather p:nth-child(3) {
-    /* font-size: 16px; */
     border-top: #F7F7F7;
     margin-top:55px;
     margin-bottom:55px;
@@ -278,4 +277,26 @@ h2 {
 .contact2,
 .contact3 {
     padding: .5em;
+}
+
+/* discover */
+.images_medium {
+    display: none;
+}
+.images_large {
+    display: none;
+}
+img[data-src] {
+    filter: blur(0.2em);
+}
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    margin: 1em;
+}
+main .discover_images {
+    grid-column: 1/5;
+}
+figcaption {
+    padding: 1em;
 }

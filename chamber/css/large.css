@@ -129,4 +129,11 @@
     .join p {
         padding: 1em;
     }
+    /* discover */
+    .images_medium {
+        display: none;
+    }
+    .images_large {
+        display: block;
+    }
 }
