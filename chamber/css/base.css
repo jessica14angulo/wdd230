@@ -291,8 +291,8 @@ img[data-src] {
 }
 .discover_images img {
     filter: blur(0em);
-    transition: filter 0.5s;
     margin-top: 1em;
+    transition: filter 0.5s;
 }
 main .discover_images {
     grid-column: 1/5;
