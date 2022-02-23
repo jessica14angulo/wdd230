@@ -1,0 +1,101 @@
+table {
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    width: auto;
+}
+body {
+    margin-top: 2em;
+    
+}
+th, td {
+    padding: .3em;
+    border: solid 1px black;
+}
+
+thead tr:nth-child(1) {
+    color: black;
+    background-color: lightgreen;
+    font-size: 24px;
+}
+thead tr:nth-child(2) {
+    color: white;
+    background-color: green;
+}
+tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: green;
+    color: white;
+}
+tbody tr {
+    background-color: lightgrey;
+}
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+tfoot td {
+    font-size: 12px;
+}
+tfoot tr {
+    background-color: lightgreen;
+}
+
+/* @media screen and (max-width: 600px) {
+    table {
+        width:95%;
+    }
+    thead {
+        display: none;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+    }
+} 
+@media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+    margin: 0 0 1rem 0;
+    }
+    
+    tr:nth-child(odd) {
+    background: #ccc;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    td:nth-of-type(1):before { content: "Period"; }
+    td:nth-of-type(2):before { content: "Sales"; }
+    td:nth-of-type(3):before { content: "Sales total"; }
+    tfoot td:nth-child(1)::before { 
+        content: "";
+        width: 100%;
+    }
+} */
