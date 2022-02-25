@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Crystal Clear Lake Chamber Website">
+    <meta name="description" content="Crystal Clear Lake Chamber Join page">
 
     <title>Crystal Clear Lake Chamber | Join</title>
     <!--Favicon-->
@@ -56,20 +56,23 @@
                 <h1  id="joinh1">Become a Member</h1>
                 <fieldset id="formMainDiv">
                     <legend class="legends">Essential Information</legend>
-                    <label class="primary" for="fname"> First Name:
+                    <label class="primary" for="fname"> First Name*
                     <input class="primary" type="text" id="fname" name="fname" required></label>
-                    <label class="primary" for="lname"> Last Name:
+                    <label class="primary" for="lname"> Last Name*
                     <input class="primary" type="text" id="lname" name="lname" required></label>
     
-                    <label class="primary" for="business">Business Name:
-                        <input class="primary" type="text" id="business" name="business" required></label>
+                    <label class="primary" for="business">Business Position Title ( 7 characters minimum)
+                    <input class="primary" type="text" id="business" name="business" minlength="7"></label>
                     
-                    <label class="primary" for="cell"> Phone: 
-                        <input class="primary" type="tel" id="cell" name="cell" 
-                            placeholder="123123123" pattern="[0-9]{9}" required></label>
+                    <label class="primary" for="email">Email*
+                    <input class="primary" type="email" id="email" name="email" placeholder="someone@email.com" required></label>
+
+                    <label class="primary" for="cell"> Phone* 
+                    <input class="primary" type="tel" id="cell" name="cell" required></label>
                     
-                    <label class="primary" for="email">Email:
-                    <input class="primary" type="email" id="email" name="email" placeholder="someone@email.com" required></label><br>
+                    <label class="primary" for="title">Business Name*
+                    <input class="primary" type="text" id="title" name="title" required></label>
+                    <br>
                 </fieldset>
                 <fieldset id="fieldMembership">
                     <legend class="legends">Select Membership</legend>
@@ -80,11 +83,7 @@
                 </fieldset>
                 <fieldset>
                     <legend class="legends">Additional Details</legend>
-                    <label class="primary" for="title">Title: 
-                        <input class="primary" type="text" id="title" name="title"></label>
-    
-                    
-                    <label class="primary" id="descriptionLabel" for="description">Business Description: <textarea type="message" rows="4"></textarea></label>
+                    <label class="primary" id="descriptionLabel" for="descriptionLabel">Business Description: <textarea rows="4"></textarea></label>
                     
                 </fieldset>  
     
