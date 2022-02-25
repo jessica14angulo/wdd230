@@ -62,7 +62,7 @@
                     <input class="primary" type="text" id="lname" name="lname" required></label>
     
                     <label class="primary" for="business">Business Position Title ( 7 characters minimum)
-                    <input class="primary" type="text" id="business" name="business" minlength="7"></label>
+                    <input class="primary" type="text" id="business" name="business" minlength="7" pattern="{7,}" title="only accepts alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
                     
                     <label class="primary" for="email">Email*
                     <input class="primary" type="email" id="email" name="email" placeholder="someone@email.com" required></label>
