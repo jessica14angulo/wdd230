@@ -390,6 +390,8 @@ form label.primary input:required:valid {
     gap: 0.4rem;
     text-align: center;
     padding: 4rem 0.8rem;
+    color: #F7F7F7;
+    background-color: #073B5E;
 }
 
 .thankMain h1 {
