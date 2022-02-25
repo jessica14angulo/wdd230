@@ -132,6 +132,28 @@
     .discover_images img:hover {
         box-shadow: 0 0 50px #333;
     }
-        
+    /* join form */
+    #mainJoin h1 {
+        text-align: left;
+        font-size: 3rem;
+        margin: 1rem;
+    }
+    form {
+        grid-column: 1/4;
+    }
+    form legend {
+        font-size: 1.5rem;
+    }
     
+    form label.primary, form.label.primary select, form textarea {
+        font-size: 1.25rem;
+    }
+    
+    form label.secondary {
+        font-size: 1.5rem;
+    }
+    
+    .submitBtn {
+        margin: 1rem;
+    }
 }

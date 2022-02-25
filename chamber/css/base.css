@@ -303,3 +303,100 @@ figcaption {
 figure {
     margin: 0;
 }
+/* join */
+#joinH1 {
+    text-align: center;
+}
+/* join form */
+#mainJoin {
+    padding: .5rem;
+}
+
+#mainJoin h1 {
+    text-align: center;
+    color: #191924;
+}
+
+fieldset {
+    margin: 1rem 0;
+    padding: 1rem 2%;
+    border:#191924 solid 5px;
+    background-color: lightgray;
+    overflow: auto;
+}
+
+form label.primary{
+    display: block;
+    padding-top: 1rem;
+    color: #191924;
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.primary input, form label.primary select, form textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+form label.secondary {
+    display: block;
+    padding: .75rem 0;
+    color: #191924;
+}
+
+form legend {
+    padding: 1rem;
+    margin: 0;
+    color: #191924;
+}
+
+.submitBtn {
+    margin: auto;
+    padding: 2rem;
+    border: none;
+    border-radius: 15px;
+    background: #073B5E;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 5px #2b3131;
+    cursor: pointer;
+}
+
+form label.primary input:required {
+    border: none;
+    border-left: darkred solid 5px;
+
+}
+
+form label.primary input:required:valid {
+    border: none;
+    border-left: green solid 4px;
+
+}
+/* thank you page */
+.thankMain {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    text-align: center;
+    padding: 4rem 0.8rem;
+}
+
+.thankMain h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.thankMain p, .thankMain h2 {
+    font-size: 1.5rem;
+}

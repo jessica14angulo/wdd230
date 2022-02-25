@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crystal Clear Lake Chamber Website">
+
+    <title>Crystal Clear Lake Chamber | Join</title>
+    <!--Favicon-->
+    <link rel="icon" href="images/favicon.ico">
+    <!--normalize CSS reference-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--stylesheets references-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <!--fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <!-- java reference -->
+    <!-- <script src="js/lazyload.js" defer></script> -->
+</head>
+<body>
+    <div class="banner" id="banner" style="display: none">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    <div class="content">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/CCL-logo.webp" alt="Crystal Clear Lake Logo"></a>
+            </div>
+            <div class="chamberName">
+                <h1>Crystal Clear Lake</h1>
+                <h2>Chamber of Commerce</h2>
+            </div> 
+            <div class="social">
+                <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Twitter Link"></a>
+                <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Link"></a>
+            </div>
+            <span id="date"></span>
+            <nav>
+                <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
+                <ul id="navBar">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="mainJoin">  
+            <form action="thankyou.html">
+                <h1  id="joinh1">Become a Member</h1>
+                <fieldset id="formMainDiv">
+                    <legend class="legends">Essential Information</legend>
+                    <label class="primary" for="fname"> First Name:
+                    <input class="primary" type="text" id="fname" name="fname" required></label>
+                    <label class="primary" for="lname"> Last Name:
+                    <input class="primary" type="text" id="lname" name="lname" required></label>
+    
+                    <label class="primary" for="business">Business Name:
+                        <input class="primary" type="text" id="business" name="business" required></label>
+                    
+                    <label class="primary" for="cell"> Phone: 
+                        <input class="primary" type="tel" id="cell" name="cell" 
+                            placeholder="123123123" pattern="[0-9]{9}" required></label>
+                    
+                    <label class="primary" for="email">Email:
+                    <input class="primary" type="email" id="email" name="email" placeholder="someone@email.com" required></label><br>
+                </fieldset>
+                <fieldset id="fieldMembership">
+                    <legend class="legends">Select Membership</legend>
+                    <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="nonProfit">  Non Profit</label>
+                    <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="bronze">  Bronze</label>
+                    <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="silver">  Silver</label>
+                    <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="gold">  Gold</label>
+                </fieldset>
+                <fieldset>
+                    <legend class="legends">Additional Details</legend>
+                    <label class="primary" for="title">Title: 
+                        <input class="primary" type="text" id="title" name="title"></label>
+    
+                    
+                    <label class="primary" id="descriptionLabel" for="description">Business Description: <textarea type="message" rows="4"></textarea></label>
+                    
+                </fieldset>  
+    
+                <input type="submit" value="Enroll My Business" class="submitBtn">
+    
+            </form> 
+        </main>
+        <footer>
+            <div class="address">
+                <img src="images/CCL-logo.webp" alt="Chamber logo">
+                <p><strong>Crystal Clear Lake Chamber of Commerce</strong></p>
+                <p>c. Lanza # 767</p>
+                <p>Cochabamba, Bolivia</p> 
+            </div>
+            <div class="contact">
+                <p>info@cclchamber.org</p>
+                <p>+(591)384-720-45</p>
+                <a href="https://goo.gl/maps/9kcMC7As7rmrSieY7" target="blank">🗺️ Location Map</a>
+            </div>
+        
+            <div class="myInfo">
+                <p> &copy;<span id="currentyear"></span> Crystal Clear Lake Chamber </p>
+                <p><strong> Jessica L. Angulo </strong> </p>
+                <p> WDD 230 Project </p>  
+                <p><span id="lastinfo">Last Modification: <span id="lastmodified"></span></span></p>
+                <div class="visitdays">
+                    <p><span id="container"></span></p>
+                </div>
+            </div>
+        </footer>
+        <!-- java reference -->
+        <script src="js/index.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/lazyload.js" defer></script>
+    </div> 
+</body>
+</html>

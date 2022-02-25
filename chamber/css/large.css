@@ -136,4 +136,9 @@
     .images_large {
         display: block;
     }
+    /* join form */
+    #mainJoin {
+        display: flex;
+        flex-direction: column;
+    }
 }
