@@ -1,0 +1,71 @@
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: .5rem;
+}
+header h1 {
+    margin: 0;color: #184f6a;
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+header h2, h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: #184f6a;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+    padding: 6px;
+    color: #184f6a;
+    text-align: center;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+  
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #dfdcdc;
+    border: 1px solid #184f6a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px #333;
+}
+
+section img {
+    max-width: 90%;
+}
+
+img {
+    margin: .3em;
+}
+
+footer {
+    color: white;
+    background-color: darkblue;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
