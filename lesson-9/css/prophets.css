@@ -51,6 +51,7 @@ section {
 
 section img {
     max-width: 90%;
+    border: double 10px #184f6a;
 }
 
 img {
