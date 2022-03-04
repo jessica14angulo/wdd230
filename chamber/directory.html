@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Crystal Clear Lake Chamber Join page">
+    <meta name="description" content="Crystal Clear Lake Chamber Website">
 
-    <title>Crystal Clear Lake Chamber | Join</title>
+    <title>Crystal Clear Lake Chamber | Home</title>
     <!--Favicon-->
     <link rel="icon" href="images/favicon.ico">
     <!--normalize CSS reference-->
@@ -44,54 +44,18 @@
                 <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
                 <ul id="navBar">
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="discover.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
         
-        <main id="mainJoin">  
-            <form action="thankyou.html">
-                <h1  id="joinh1">Become a Member</h1>
-                <fieldset id="formMainDiv">
-                    <legend class="legends">Essential Information</legend>
-                    <label class="primary" for="fname"> First Name*
-                    <input class="primary" type="text" id="fname" name="fname" required></label>
-                    <label class="primary" for="lname"> Last Name*
-                    <input class="primary" type="text" id="lname" name="lname" required></label>
-    
-                    <label class="primary" for="business">Business Position Title ( 7 characters min.)
-                    <input class="primary" type="text" id="business" name="business" minlength="7" pattern="{7,}" title="only accepts alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
-                    
-                    <label class="primary" for="email">Email*
-                    <input class="primary" type="email" id="email" name="email" placeholder="someone@email.com" required></label>
-
-                    <label class="primary" for="cell"> Phone* 
-                    <input class="primary" type="tel" id="cell" name="cell" required></label>
-                    
-                    <label class="primary" for="title">Business Name*
-                    <input class="primary" type="text" id="title" name="title" required></label>
-                    <br>
-                </fieldset>
-                <fieldset id="fieldMembership">
-                    <legend class="legends">Select Membership</legend>
-                    <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="nonProfit">  Non Profit</label>
-                    <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="bronze">  Bronze</label>
-                    <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="silver">  Silver</label>
-                    <label class="secondary"><input class="radios" type="radio" name="membership" name="level" value="gold">  Gold</label>
-                </fieldset>
-                <fieldset>
-                    <legend class="legends">Additional Details</legend>
-                    <label class="primary" id="descriptionLabel" for="descriptionLabel">Business Description: <textarea rows="4"></textarea></label>
-                    
-                </fieldset>  
-    
-                <input type="submit" value="Enroll My Business" class="submitBtn">
-    
-                <input type="hidden" name="onFormLoad" id="subDatetime" value="">
-
-            </form> 
+        <main class="dirBox" class="clearfix">
+            <h2>Business Directory</h2>
+            <div class="dirButtons"><button class="listBtn"> &#9783;</button><button class="gridBtn"> &#10998;&#10998;&#10998; </button></div>
+            <div class="cards" id="cardToggle"></div>
+            <div class="lists" id="listToggle"><div class="listTabs"></div></div>
         </main>
         <footer>
             <div class="address">
@@ -120,6 +84,7 @@
         <script src="js/index.js"></script>
         <script src="js/windchill.js"></script>
         <script src="js/lazyload.js" defer></script>
+        <script src="js/directory.js" defer></script>
     </div> 
 </body>
 </html>

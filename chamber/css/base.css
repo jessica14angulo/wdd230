@@ -314,7 +314,7 @@ figure {
 
 #mainJoin h1 {
     text-align: center;
-    color: #191924;
+    color: #073B5E;
 }
 
 fieldset {
@@ -402,4 +402,75 @@ form label.primary input:required:valid {
 
 .thankMain p, .thankMain h2 {
     font-size: 1.5rem;
+}
+/* directory page */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+  
+.cardSection {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    border: 1px solid #073B5E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardSection img {
+    max-width: 50%;
+}
+
+.dirBox {
+    display: block;
+}
+
+.cardSection h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.dirButtons {
+    text-align: center;   
+    background-color: white;
+    box-shadow: none;
+}
+
+button.listBtn, button.gridBtn {
+    margin: 3px;
+    border: 2px solid #073B5E;
+    background-color: #0E78BE;
+    font-size: 40px;
+    color: #F7F7F7;
+}
+
+.listBtn:hover, .gridBtn:hover {
+    background-color: #F7F7F7;
+    color: #073B5E;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #666;
+}
+
+td {
+    padding: 10px;
+    font-size: 15px;
+}
+.dirBox h2 {
+    margin-left: .7em;
+    color: #073B5E;
+    text-shadow: none;
+}
+.cards h2, .lists h2 {
+    color: #F7F7F7;
+    display: block;
+}
+.cards p, .lists p {
+    font-size: 15px;
+}
+.dirButtons{ 
+    margin-bottom: 1em;
 }
