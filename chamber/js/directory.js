@@ -36,11 +36,9 @@ function displayDir(directory) {
     let name = document.createElement("h2")
     let logo = document.createElement("img")
     let address = document.createElement("p")
-    // let phone = document.createElement("p")
 // add the directorys name to the name textcontent
     name.textContent = directory.companyname;
-    address.innerHTML = `<b>Phone:</b> ${directory.phone}  <br> <b>Address:</b> ${directory.address} <br> <b>Web:</b> ${directory.website}`
-    // phone.innerHTML = `Phone:${directory.phone}`;
+    address.innerHTML = `<b></b> ${directory.phone}  <br> <b></b> ${directory.address} <br> <b></b> ${directory.website}`
     logo.setAttribute('src', directory.logourl);
     logo.setAttribute('alt', `${directory.companyname} logo`);
     logo.setAttribute('loading', 'lazy')
@@ -62,12 +60,11 @@ function displayList(directory) {
     lists.appendChild(tr)
 }
 
-function toggleList() {
-    document.getElementById("listToggle").style.display = "block";
-    document.getElementById("cardToggle").style.display = "none";
-}
-
 function toggleCard() {
     document.getElementById("cardToggle").style.display = "grid";
     document.getElementById("listToggle").style.display = "none";
+}
+function toggleList() {
+    document.getElementById("listToggle").style.display = "block";
+    document.getElementById("cardToggle").style.display = "none";
 }
