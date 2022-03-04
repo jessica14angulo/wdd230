@@ -57,10 +57,14 @@ function displayDir(directory) {
 
 function displayList(directory) {
     let tr = document.createElement("tr");
-    tr.innerHTML = `<td>${directory.companyname} </td> <td>${directory.phone}</td> <td>${directory.address}</td> <td>${directory.website}</td>`
-
+    let website = document.createElement("p")
+    tr.innerHTML = `<td>${directory.companyname} </td> <td>${directory.phone}</td> <td>${directory.address}</td> `
+    website.setAttribute('class','link'); 
+    website.innerHTML = "<a href=" + `${directory.website}` + ">" + `${directory.website}`;
     // add to existing HTML div
+    tr.appendChild(website)
     lists.appendChild(tr)
+    
 }
 
 function toggleCard() {

@@ -476,4 +476,8 @@ td {
 }
 .cards a, .lists a {
     color: #F7F7F7;
+    text-decoration: revert;
+}
+.cards a:hover, .lists a:hover {
+    font-size: inherit;
 }
