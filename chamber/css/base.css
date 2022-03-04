@@ -474,3 +474,6 @@ td {
 .dirButtons{ 
     margin-bottom: 1em;
 }
+.cards a, .lists a {
+    color: #F7F7F7;
+}

@@ -36,17 +36,20 @@ function displayDir(directory) {
     let name = document.createElement("h2")
     let logo = document.createElement("img")
     let address = document.createElement("p")
-// add the directorys name to the name textcontent
+    let website = document.createElement("p")
+// add the directories name to the name textcontent
     name.textContent = directory.companyname;
-    address.innerHTML = `<b></b> ${directory.phone}  <br> <b></b> ${directory.address} <br> <b></b> ${directory.website}`
+    address.innerHTML = `<b></b> ${directory.phone}  <br> <b></b> ${directory.address} <br> `
     logo.setAttribute('src', directory.logourl);
     logo.setAttribute('alt', `${directory.companyname} logo`);
     logo.setAttribute('loading', 'lazy')
-
+    website.setAttribute('class','link'); 
+    website.innerHTML = "<a href=" + `${directory.website}` + ">" + `${directory.website}`;
 // append to the section(card)
     card.appendChild(logo);
     card.appendChild(name);
     card.appendChild(address)
+    card.appendChild(website)
     
 // add to existing HTML div
     cards.appendChild(card);
