@@ -160,5 +160,7 @@
     .directory {
         display: block;
     }
-    
+    tr, tr a {
+        display: table-row;
+    }
 }

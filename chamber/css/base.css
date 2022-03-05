@@ -481,3 +481,8 @@ td {
 .cards a:hover, .lists a:hover {
     font-size: inherit;
 }
+tr, tr a {
+    display: grid;
+    text-align: left;
+    padding-left: 1em;
+}
