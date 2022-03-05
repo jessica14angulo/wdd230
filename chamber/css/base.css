@@ -483,6 +483,5 @@ td {
 }
 tr, tr a {
     display: grid;
-    text-align: left;
     padding-left: 1em;
 }
