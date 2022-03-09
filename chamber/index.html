@@ -68,12 +68,18 @@
             </div>
             <div class="weather">
                 <h2>Weather</h2>
-                <img src="images/weather.png" alt="weather image">
-                <p><span id="temperature">33</span>&#176;F</p>
-                <p>Sunny</p>
+                <figure>
+                    <img src="" alt="" id="weathericon" />
+                </figure>
+                <p><span id="icon-src"></span></p>
+                <figure>
+                    <img src="" alt="" id="weathericon" />  
+                    <p><span id="current-temp"></span>&deg;C</p>
+                    <figcaption></figcaption>
+                </figure>
                 
-                <p>Wind Speed: <span id="wind">2.5</span>Km/h</p>                
-                <p>Wind Chill: <span id="chillWind"></span></p>
+                <p>Wind Speed: <span id="windspeed"></span>Km/h</p>                
+                <p>Wind Chill: <span id="windchill"></span>&deg;C</p>
 
             </div>
             <div class="news">
@@ -137,6 +143,7 @@
                 <p> &copy;<span id="currentyear"></span> Crystal Clear Lake Chamber </p>
                 <p><strong> Jessica L. Angulo </strong> </p>
                 <p> WDD 230 Project </p>  
+                <a href="https://openweathermap.org/" target="blank">https://openweathermap.org/</a>
                 <p><span id="lastinfo">Last Modification: <span id="lastmodified"></span></span></p>
                 <div class="visitdays">
                     <p><span id="container"></span></p>

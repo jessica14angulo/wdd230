@@ -108,6 +108,9 @@
         padding: .5em;
         border-right: 1px solid #F7F7F7;
     }
+    .myInfo a {
+        border-right: 1px solid #F7F7F7;
+    }
     #lastinfo p {
         border-right: none;
         margin-top: 0;

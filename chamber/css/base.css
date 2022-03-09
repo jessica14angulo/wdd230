@@ -172,6 +172,17 @@ footer img {
 .myInfo {
     border-top: 1px solid #F7F7F7;
 }
+.myInfo a {
+    color: #F7F7F7;
+    /* margin-bottom: 1em; */
+    text-decoration: none;
+    padding: .7em;
+    margin: 14px 0;
+}
+.myInfo a:hover {
+   font-size: inherit;
+   text-decoration-line:underline;
+}
 /*hero */
 .hero {
     position: relative;
@@ -231,15 +242,14 @@ h2 {
 .weather {
     width: 300px;
     justify-self: center;
-    /* display: grid;
-    grid-template-columns: 1fr; */
 }
 .weather p {
     font-size: 20px;
 }
 .weather img {
-    margin-left: 1em;
+    margin-left: 2em;
     float: left;
+    min-width: 90px;
 }
 .weather p:nth-child(3) {
     border-top: #F7F7F7;
@@ -251,7 +261,13 @@ h2 {
     font-size: 30px;
     border: white;
 }
-
+#current-temp {
+    font-size: 35px;
+}
+.weather figcaption {
+    border-bottom: 1px solid #F7F7F7;
+    margin: 1em;
+}
 /* news */
 .news p {
     padding: 1.5em;

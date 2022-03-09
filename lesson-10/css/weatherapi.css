@@ -1,0 +1,15 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .5em;
+    border-bottom: 1px solid #888;
+}
+figcaption {
+    color: blue;
+}
+p {
+    margin-left: 1em;
+    font-size: 20px;
+}
+#icon-src {
+    font-style: italic;
+}
