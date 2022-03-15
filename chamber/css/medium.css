@@ -57,6 +57,11 @@
         margin: 1em;
         width: 90%;
     }
+    #join2button:hover {
+        color: #191924;
+        background-color: #F7F7F7;
+        border-color: #191924;
+    }
     .event {
         grid-column: 1/3;
         grid-row: 5/6;

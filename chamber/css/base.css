@@ -221,6 +221,11 @@ footer img {
     right: 15px;
     border-radius: 8px;
 }
+#joinButton:hover {
+    color: #191924;
+    background-color: #F7F7F7;
+    border-color: #191924;
+}
 .hero button:hover {
     font-size: 18px;
 }
@@ -387,7 +392,11 @@ form legend {
     box-shadow: 2px 2px 5px #2b3131;
     cursor: pointer;
 }
-
+.submitBtn:hover {
+    color: #073B5E;
+    background-color: white;
+    border: 1px solid #073B5E;
+}
 form label.primary input:required {
     border: none;
     border-left: darkred solid 5px;
