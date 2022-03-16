@@ -234,6 +234,11 @@ h2 {
     color: #F7F7F7;
     text-shadow: 2px 2px #191924;
 }
+h3 {
+    color: #191924;
+    font-size: 20px;
+    font-style: italic;
+}
 /* event */
 .event {
     text-align: center;
@@ -391,11 +396,11 @@ form legend {
     flex-wrap: wrap;
     box-shadow: 2px 2px 5px #2b3131;
     cursor: pointer;
+    border: 1px solid #073B5E;
 }
 .submitBtn:hover {
     color: #073B5E;
     background-color: white;
-    border: 1px solid #073B5E;
 }
 form label.primary input:required {
     border: none;

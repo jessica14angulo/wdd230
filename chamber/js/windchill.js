@@ -3,7 +3,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=3919968&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    // console.log(jsObject);
     let temp = document.querySelector('#current-temp');
     temp.textContent = jsObject.main.temp.toFixed(1);
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
@@ -16,24 +16,8 @@ fetch(apiURL)
     document.querySelector('figcaption').textContent = desc;
     document.querySelector('#windspeed').textContent = windspeed;
     document.querySelector("#windchill").textContent = windchill;
-    // windchill.textContent = windChill(temp, windchill);
   });
-// const calWindChill = (temperature, speed) => {
-//     return (temperature >= 10 && speed > 3) 
-//     ?
-//         Math.round(
-//             35.74 
-//             + 0.6215 
-//             * temperature 
-//             - 35.75 
-//             * Math.pow(speed, 0.16) 
-//             + 0.4275 
-//             * temperature 
-//             * Math.pow(speed, 0.16) 
-//             )
-//     :
-//     "N/A";
-// }
+
 const windChill = (celsiusTemp, windS) => {
   return (celsiusTemp <= 10 && windS > 4.8)
   ?
@@ -43,15 +27,3 @@ const windChill = (celsiusTemp, windS) => {
   :
     "N/A";
 }
-
-
-// const displayWindChill = () => {
-//     let temperature = document.querySelector("#current-temp");
-//     let wind = document.querySelector("#windspeed");
-//     wind.textContent = calWindChill()
-//     let result = calWindChill(temperature, wind);
-//     console.log(temperature, wind, result);
-//     document.querySelector("#chillWind").innerHTML = result;
-// }
-
-// displayWindChill();

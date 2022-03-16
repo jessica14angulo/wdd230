@@ -56,6 +56,6 @@ const populateStorage = () => {
 const setStyles = () => {
   localStorage.setItem("daysVisited", timestamp);
 };
-//hidden form
-let dForm = new Date()
-document.querySelector("#subDatetime").value = dForm;
+// //hidden form
+// let dForm = new Date()
+// document.querySelector("#subDatetime").value = dForm;
