@@ -430,7 +430,6 @@ form label.primary input:required:valid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-  
 .cardSection {
     margin: 0.25rem;
     padding: 0.35rem;
@@ -439,26 +438,21 @@ form label.primary input:required:valid {
     flex-direction: column;
     align-items: center;
 }
-
 .cardSection img {
     max-width: 50%;
 }
-
 .dirBox {
     display: block;
 }
-
 .cardSection h2 {
     font-size: 1rem;
     text-align: center;
 }
-
 .dirButtons {
     text-align: center;   
     background-color: white;
     box-shadow: none;
 }
-
 button.listBtn, button.gridBtn {
     margin: 3px;
     border: 2px solid #073B5E;
@@ -466,17 +460,14 @@ button.listBtn, button.gridBtn {
     font-size: 40px;
     color: #F7F7F7;
 }
-
 .listBtn:hover, .gridBtn:hover {
     background-color: #F7F7F7;
     color: #073B5E;
     cursor: pointer;
 }
-
 tr:nth-child(even) {
     background-color: #666;
 }
-
 td {
     padding: 10px;
     font-size: 15px;
@@ -515,12 +506,10 @@ tr, tr a {
 #contactMain div {
     border: none;
 }
-
 #contactMain div p {
     padding-bottom: 0;
     text-align: center;
 }
-
 .contactSpan {
     color: #073B5E;
     letter-spacing: normal;
