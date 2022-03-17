@@ -63,6 +63,11 @@
     .spotlights p {
         margin: 0.3em;
     }
+    .contact1, 
+    .contact2,
+    .contact3 {
+        width: 300px;
+}
     .transport {
         grid-row: 1/2;
     }

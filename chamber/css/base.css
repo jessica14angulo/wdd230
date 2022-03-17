@@ -303,9 +303,13 @@ h3 {
 .contact1, 
 .contact2,
 .contact3 {
-    padding: .5em;
+    padding: 2.5em .5em;
 }
-
+.spot1img,
+.spot2img,
+.spot3img {
+    width: 256px;
+}
 /* discover */
 .images_medium {
     display: none;
