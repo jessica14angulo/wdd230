@@ -171,4 +171,17 @@
     tr, tr a {
         display: table-row;
     }
+    /* contact page */
+    #contactMain {
+        display: block;
+    }
+    #contactMain div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin: .5em;
+        padding: 1em;
+    }
 }

@@ -148,4 +148,9 @@
         width: 100%;
         border: 1px solid var(--nav-active-link-greyish);
     }
+    /* contact page */
+    #contactMain div {
+        border-left: thin solid #666;
+        padding: 0;
+    }
 }

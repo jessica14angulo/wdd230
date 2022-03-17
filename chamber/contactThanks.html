@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Crystal Clear Lake Chamber Website">
+    <meta name="description" content="Crystal Clear Lake Chamber Thank you page">
 
-    <title>Crystal Clear Lake Chamber | Home</title>
+    <title>Crystal Clear Lake Chamber | Thank you!</title>
     <!--Favicon-->
     <link rel="icon" href="images/favicon.ico">
     <!--normalize CSS reference-->
@@ -51,45 +51,16 @@
             </nav>
         </header>
         
-        <main id="contactMain">
-            <h1>CONTACT US</h1>
-            <div>
-                <p><span>Crystal Clear Lake Chamber of Commerce</span><br>
-                c. Lanza # 767<br>Cochabamba, Bolivia<br><br>info@cclchamber.org<br>+(591)384-720-45</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121835.93283398036!2d-66.23391649476115!3d-17.393883068433627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e373e0d9e4ab27%3A0xa2719ae9532c3e65!2sCochabamba!5e0!3m2!1sen!2sbo!4v1647465127054!5m2!1sen!2sbo" style="border:0;" allowfullscreen="" loading="lazy"></iframe></iframe>
-            </div>
-            <form action="contactThanks.html">
-                <fieldset id="formMainDiv">
-                    <legend class="legends">Your Information</legend>
-                    <label class="primary" for="fname"> First Name*
-                    <input class="primary" type="text" id="fname" name="fname" required></label>
-                    <label class="primary" for="lname"> Last Name*
-                    <input class="primary" type="text" id="lname" name="lname" required></label>
-                    
-                    <label class="primary" for="email">Email*
-                    <input class="primary" type="email" id="email" name="email" placeholder="your_email@email.com" required></label>
-
-                    <label class="primary" for="cell"> Phone* 
-                    <input class="primary" type="tel" id="cell" name="cell" required></label>
-                    
-                    <label class="primary" for="title">Your Business Name
-                    <input class="primary" type="text" id="title" name="title"></label>
-                    
-                    <label class="primary" id="descriptionLabel" for="descriptionLabel">Your message: <textarea rows="4"></textarea></label>
-                    <br>
-                </fieldset>
-
-                <input type="submit" value="Send Message" class="submitBtn">
-
-                <input type="hidden" name="onFormLoad" id="subDatetime" value="">
-
-            </form> 
-               
-          </main>
+        <main class="thankMain">  
+            <h1>Crystal Clear Lake Chamber of Commerce</h1>
+            <h2>Message Received!</h2>
+            <p>Thank you for filling out Crystal Clear Lake contact form.
+                We will process your information and contact you soon.
+            </p>
+        </main>
         <footer>
             <div class="address">
-                <a href="index.html"><img src="images/CCL-logo.webp" alt="Chamber logo"></a>
-                <p><strong>Crystal Clear Lake Chamber of Commerce</strong></p>
+                <a href="index.html"><img src="images/CCL-logo.webp" alt="Chamber logo"></a>                <p><strong>Crystal Clear Lake Chamber of Commerce</strong></p>
                 <p>c. Lanza # 767</p>
                 <p>Cochabamba, Bolivia</p> 
             </div>
@@ -103,7 +74,6 @@
                 <p> &copy;<span id="currentyear"></span> Crystal Clear Lake Chamber </p>
                 <p><strong> Jessica L. Angulo </strong> </p>
                 <p> WDD 230 Project </p>  
-                <a href="https://openweathermap.org/" target="blank">https://openweathermap.org/</a>
                 <p><span id="lastinfo">Last Modification: <span id="lastmodified"></span></span></p>
                 <div class="visitdays">
                     <p><span id="container"></span></p>
@@ -112,7 +82,8 @@
         </footer>
         <!-- java reference -->
         <script src="js/index.js"></script>
-        <script src="js/join.js"></script>
+        <!-- <script src="js/windchill.js"></script> -->
+        <script src="js/lazyload.js" defer></script>
     </div> 
 </body>
 </html>

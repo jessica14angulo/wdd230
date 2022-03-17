@@ -106,6 +106,7 @@ nav ul li a {
 nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
     color: #fff;
+    font-size: 1.2em;
 }
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
@@ -514,4 +515,29 @@ td {
 tr, tr a {
     display: grid;
     padding-left: 1em;
+}
+/* contact page*/
+#contactMain h1 {
+    color: #073B5E;
+    text-align: center;
+}
+#contactMain div {
+    border: none;
+}
+
+#contactMain div p {
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.contactSpan {
+    color: #073B5E;
+    letter-spacing: normal;
+}
+
+#contactMain div iframe {
+    box-shadow: 0 2px 15px #888;
+    margin: 1em;
+    padding-top: 0;
+    width: 70%;
 }
