@@ -47,15 +47,15 @@ function spotlightLoad() {
     document.querySelector(".spot2img").setAttribute("loading", "lazy"); 
 
     // load spotlight3 only when it is on screen.
-        if (document.documentElement.clientWidth >= 1100) {
-            document.querySelector(".spot3H2").textContent = allMembers[k].companyname;
-            document.querySelector(".spot3phone").innerHTML = `Phone: +${allMembers[k].phone}`;
-            document.querySelector(".spot3email").textContent = allMembers[k].website;
-            document.querySelector(".spot3img").setAttribute("src", allMembers[k].logourl);
-            document.querySelector(".spot3img").setAttribute("alt", `${allMembers[k].companyname} logo`)
-            document.querySelector(".spot3img").setAttribute("loading", "lazy"); 
-        } 
-        false;  
+    if (document.documentElement.clientWidth >= 1100) {
+        document.querySelector(".spot3H2").textContent = allMembers[k].companyname;
+        document.querySelector(".spot3phone").innerHTML = `Phone: +${allMembers[k].phone}`;
+        document.querySelector(".spot3email").textContent = allMembers[k].website;
+        document.querySelector(".spot3img").setAttribute("src", allMembers[k].logourl);
+        document.querySelector(".spot3img").setAttribute("alt", `${allMembers[k].companyname} logo`)
+        document.querySelector(".spot3img").setAttribute("loading", "lazy"); 
+    } 
+    false;  
 }
 
 // select random member
