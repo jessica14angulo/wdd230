@@ -343,7 +343,6 @@ figure {
     text-align: center;
     color: #073B5E;
 }
-
 fieldset {
     margin: 1rem 0;
     padding: 1rem 2%;
@@ -369,19 +368,16 @@ form label.primary input, form label.primary select, form textarea {
     background-color: rgb(255, 255, 255);
     border: none;
 }
-
 form label.secondary {
     display: block;
     padding: .75rem 0;
     color: #191924;
 }
-
 form legend {
     padding: 1rem;
     margin: 0;
     color: #191924;
 }
-
 .submitBtn {
     margin: auto;
     padding: 2rem;
@@ -406,7 +402,6 @@ form label.primary input:required {
     border-left: darkred solid 5px;
 
 }
-
 form label.primary input:required:valid {
     border: none;
     border-left: green solid 4px;
@@ -422,13 +417,11 @@ form label.primary input:required:valid {
     color: #F7F7F7;
     background-color: #073B5E;
 }
-
 .thankMain h1 {
     margin: 0;
     font-size: 2rem;
     color: #F7F7F7;
 }
-
 .thankMain p, .thankMain h2 {
     font-size: 1.5rem;
 }
