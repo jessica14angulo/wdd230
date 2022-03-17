@@ -47,9 +47,7 @@ function spotlightLoad() {
     document.querySelector(".spot2img").setAttribute("loading", "lazy"); 
 
     // load spotlight3 only when it is on screen.
-    window.addEventListener("resize", function () {
         if (document.documentElement.clientWidth >= 1100) {
-            // load random Silver member to spotlight 3 for screen size only
             document.querySelector(".spot3H2").textContent = allMembers[k].companyname;
             document.querySelector(".spot3phone").innerHTML = `Phone: +${allMembers[k].phone}`;
             document.querySelector(".spot3email").textContent = allMembers[k].website;
@@ -57,8 +55,7 @@ function spotlightLoad() {
             document.querySelector(".spot3img").setAttribute("alt", `${allMembers[k].companyname} logo`)
             document.querySelector(".spot3img").setAttribute("loading", "lazy"); 
         } 
-    }, false);
-        
+        false;  
 }
 
 // select random member
