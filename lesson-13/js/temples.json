@@ -1,0 +1,77 @@
+{
+    "directory": [
+        {
+            "templeName": "London England Temple",
+            "imageurl" : "images/temples/london_england_temple.webp",
+            "address": "West Park Road, Newchapel Surrey, England RH7 6HW, United Kingdom",
+            "telephone": "(44) 1342 831-400",
+            "email": "LONDO-OFF@ChurchofJesusChrist.org",
+            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "4 October 2008 Announced, 23 October 2010 Groundbreaking, 10 March 2019 Dedicated",
+            "ordinanceSchedule": "Wednesday, May 4, 2022 11:00AM-1:30PM-7:00PM",
+            "sessionSchedule": "No sessions available",
+            "templeClosureSchedule": "Monday, 28 February 2022 - Monday, 9 May 2022, Wednesday, 29 June 2022, Monday, 19 September 2022 - Monday, 3 October 2022, Saturday, 24 December 2022 - Monday, 26 December 2022, Saturday, 31 December 2022 - Sunday, 1 January 2023"
+        },
+        {
+            "templeName": "Cochabamba Bolivia Temple",
+            "imageurl" : "images/temples/cochabamba_bolivia_temple.webp",
+            "address": "Av. Melchor Urquidi 1500, Alto Queru Queru, Cochabamba, Bolivia",
+            "telephone": "(591) 4-429-3161",
+            "email": "COCHA-OFF@ChurchofJesusChrist.org",
+            "services": "Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "13 January 1995 Announced; 10 November 1996 Groundbreaking; 30 April 2000 Dedicated",
+            "ordinanceSchedule": "No ordinances seats available",
+            "sessionSchedule": "No sessions available",
+            "templeClosureSchedule": "Saturday, 2 April 2022; Monday, 11 April 2022 - Monday, 6 June 2022; Saturday, 6 August 2022; Saturday, 1 October 2022; Monday, 3 October 2022 - Monday, 17 October 2022; Saturday, 24 December 2022; Saturday, 31 December 2022"
+
+        },
+        {
+            "templeName": "Sapporo Japan Temple",
+            "imageurl" : "images/temples/sapporo_japan_temple.webp",
+            "address": "1-6-1 Oyachi-Nishi, Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
+            "telephone": "(81) 11-890-8120",
+            "email": "Sappo-OFF@ChurchofJesusChrist.org",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "3 October 2009 Announced, 22 October 2011 Groundbreaking, 21 August 2016 Dedicated",
+            "ordinanceSchedule": "No ordinances seats available",
+            "sessionSchedule": "No sessions available",
+            "templeClosureSchedule": "Saturday, 9 April 2022; Friday, 29 April 2022 (Limited Operations); Monday, 5 September 2022 - Monday, 19 September 2022; Friday, 23 September 2022 (Limited Operations); Saturday, 8 October 2022; Saturday, 24 December 2022; Saturday, 31 December 2022"
+        },
+        {
+            "templeName": "Aba Nigeria Temple",
+            "imageurl" : "images/temples/aba_nigeria_temple.webp",
+            "address": "72-80 Okpu-Umuobo Rd, Aba, Abia State, Nigeria",
+            "telephone": "(234) 80-3903-4810",
+            "email": "ABA-OFF@ChurchofJesusChrist.org",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "2 April 2000 Announced, 23 February 2002 Groundbreaking, 7 August 2005 Dedicated",
+            "ordinanceSchedule": "Tuesday, April 5, 2022 8:00AM-10:00AM-12:00PM",
+            "sessionSchedule": "No sessions available",
+            "templeClosureSchedule": "Saturday, 20 August 2022, Monday, 5 September 2022 - Monday, 2 January 2023"
+        },
+        {
+            "templeName": "Bern Switzerland Temple",
+            "imageurl" : "images/temples/bern_switzerland_temple.webp",
+            "address": "Tempelstrasse 2, CH-3052 Zollikofen, Switzerland",
+            "telephone": "(41) 31-915-5252",
+            "email": "SWISS-OFF@ChurchofJesusChrist.org",
+            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history": "1 July 1952 Announced, 5 August 1953 Groundbreaking, 11 September 1955 Dedicated — dedicatory prayer, 23 October 1992 Rededicated",
+            "ordinanceSchedule": "Tuesday, April 5, 2022 9:00AM-11:45AM",
+            "sessionSchedule": "No sessions available",
+            "templeClosureSchedule": "Monday, 13 June 2022 - Monday, 27 June 2022, Saturday, 24 December 2022, Saturday, 31 December 2022"
+        },
+        {
+            "templeName": "Copenhagen Denmark Temple",
+            "imageurl" : "images/temples/copenhagen_denmark_temple.webp",
+            "address": "Priorvej 12 2000  Frederiksberg, Denmark",
+            "telephone": "(45) 38-18-1818",
+            "email": "COPEN-OFF@ChurchofJesusChrist.org",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "17 March 1999 Announced, 24 April 1999 Groundbreaking, 23 May 2004 Dedicated ",
+            "ordinanceSchedule": "Thursday, April 7, 2022 10:AM-6:00PM",
+            "sessionSchedule": "No sessions available",
+            "templeClosureSchedule": "Monday, 26 September 2022 - Monday, 10 October 2022, Friday, 23 December 2022 - Tuesday, 27 December 2022, Saturday, 31 December 2022 - Tuesday, 3 January 2023"
+        }
+    ]
+}
