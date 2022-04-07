@@ -138,7 +138,9 @@ nav ul.open {
     display: none;
     position: relative;
     min-width: 140px;
+    background-color: #00213D;
 }
+
 
 #navBar li:hover > #nestedNav {
     display: block;
@@ -472,3 +474,61 @@ form label.primary input:required:valid {
 .thankMain p, .thankMain h2 {
     font-size: 1.5rem;
 }
+/* reception page */
+#mainReception h3 {
+    color: #F4F9FC;
+    text-shadow: 2px 2px #00213d;
+}
+#mainReception {
+    padding: 1em;
+}
+#mainReception img {
+    width: 90%;
+    max-width: 500px;
+}
+#mainReception figure {
+    margin: 0;
+}
+#mainReception h1 {
+    color: #00213D;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 0.5em;
+    font-size: 30px;
+}
+.reception {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1em;
+}
+/* missionary page */
+#mainMissionary h1 {
+    color: #00213D;
+    font-family: 'Merriweather', serif;
+    padding: 0.5em;
+    font-size: 30px;
+}
+#mainMissionary h3 {
+    color: #F4F9FC;
+    text-shadow: 2px 2px #00213d;
+    padding: 1em;
+}
+#mainMissionary ul li {
+    list-style: none;
+}
+#mainMissionary ul {
+    padding-left: 0;
+}
+#mainMissionary img {
+    width: 90%;
+}
+#mainMissionary figure {
+    margin: 0;
+}
+.rooms div {
+    width: 100%;
+}
+/* .rooms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 1em;
+} */

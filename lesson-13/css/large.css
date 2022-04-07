@@ -5,6 +5,9 @@
         grid-row: 1/2;
         align-self: center;
     }
+    #navBar li #nestedNav { 
+        position: absolute;
+    }
     .hotelName h1 {
         font-size: 25px;
     }
