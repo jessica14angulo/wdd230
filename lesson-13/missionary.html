@@ -109,9 +109,24 @@
                         <li>Television-Wifi-Radio-Sound System</li>
                     </ul>  
                 </div>
-                
             </div>
-            
+            <div class="enquiryForm">
+                <form action="thankyou.html">
+                    <h3><span class="enqSubmit">Contact Us</span></h3>
+                    <label class="primary" for="name"> Full Name*
+                    <input class="primary" type="text" id="name" name="name" required></label>
+    
+                    <label class="primary" for="state">Home State or Country
+                    <input class="primary" type="text" id="state" name="state" pattern="{A-Z-a-z}" title="Only accepts alpha characters" placeholder="Virginia VA"></label>
+                    
+                    <label class="primary" for="email">Email*
+                    <input class="primary" type="email" id="email" name="email" placeholder="youremail@email.com" required></label>
+                  
+                    <label class="primary" id="descriptionLabel" for="descriptionLabel">Special Requirements or Comments: <textarea rows="4" placeholder="Write your comments here."></textarea></label>
+                  
+                      <input type="submit" value="Send Information" class="submitBtn">      
+                  </div> 
+                </form>
         </main>
         <footer>
             <div class="logoFooter">

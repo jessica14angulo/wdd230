@@ -56,14 +56,14 @@ header h2 {
     display: block;
 }
 .banner p {
-    color:#F7F7F7;
+    color:#F4F9FC;
     font-size: 17px;
 }
 #closeButton {
     position: absolute;
     right: 5px;
     top: 20px;
-    color: #F7F7F7;
+    color: #F4F9FC;
     background-color: #3D6481;
     border: none;
     font-size: 30px;
@@ -530,7 +530,42 @@ form label.primary input:required:valid {
 }
 .rooms div {
     width: 100%;
+    /* padding: 1em; */
 }
+.rooms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 1em;
+}
+.enquiryForm {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+#mainMissionary label,
+#mainMissionary .legends {
+    color: #F4F9FC;
+}
+#mainMissionary button {
+    padding: 1em;
+    margin-top: 1em;
+}
+#mainMissionary .submitBtn {
+    margin-top: 1em;
+}
+#mainMissionary .primary{
+    margin-left: auto;
+    margin-right: auto;
+}
+#mainMissionary form label.primary input, 
+#mainMissionary form label.primary select, form textarea,
+#mainMissionary form label.primary select, form textarea {
+    width: 90%;
+}
+.enquiryForm {
+        margin-top: 2em;
+    }
 /* services page */
 .servicesMain1 h2{
     color: #00213D;

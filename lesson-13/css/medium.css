@@ -103,10 +103,10 @@
     }
     .myInfo p {
         padding: .5em;
-        border-right: 1px solid #F7F7F7;
+        border-right: 1px solid #F4F9FC;
     }
     .myInfo a {
-        border-right: 1px solid #F7F7F7;
+        border-right: 1px solid #F4F9FC;
     }
     .myInfo p:nth-child(5) {
         border-right: none;
