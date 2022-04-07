@@ -140,8 +140,6 @@ nav ul.open {
     min-width: 140px;
     background-color: #00213D;
 }
-
-
 #navBar li:hover > #nestedNav {
     display: block;
     box-shadow: none;
@@ -170,6 +168,12 @@ main div {
     text-align: center;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.20);
 }
+#indexMain div picture img {
+    padding-top: 2em;
+}
+#indexMain .hero {
+    box-shadow: none;
+}
 /*hero */
 .hero {
     position: relative;
@@ -181,7 +185,7 @@ main div {
     font-size: 20px;
     font-family: 'Merriweather', serif;
     position: absolute;
-    top: 10px;
+    top: 30px;
     left: 20px;
 }
 .hero img {
@@ -527,8 +531,26 @@ form label.primary input:required:valid {
 .rooms div {
     width: 100%;
 }
-/* .rooms {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    grid-gap: 1em;
-} */
+/* services page */
+.servicesMain1 h2{
+    color: #00213D;
+    text-shadow: none;
+    font-family: 'Merriweather', serif;
+    padding: 0.5em;
+    font-size: 30px;
+    margin: 0;
+}
+.servicesMain1 img {
+    width: 90%;
+    margin-top: 1em;
+}
+.servicesMain1 ul li {
+    list-style: none;
+    padding: .3em;
+}
+.servicesMain1 ul {
+    padding-left: 0;
+}
+.servicesMain1 {
+    padding: 0;
+}

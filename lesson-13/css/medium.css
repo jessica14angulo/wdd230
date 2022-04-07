@@ -126,4 +126,9 @@
         grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
         grid-gap: 1em;
     }
+    .servicesMain1 img {
+        float: left;
+        max-width: 500px;
+        margin: 1em;
+    }
 }
