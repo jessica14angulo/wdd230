@@ -529,7 +529,7 @@ form label.primary input:required:valid {
     margin: 0;
 }
 .rooms div {
-    max-width: 300px;
+    max-width: 90%;
 }
 .rooms {
     display: grid;
